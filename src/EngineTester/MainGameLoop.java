@@ -103,7 +103,7 @@ public class MainGameLoop {
 
 		};
 		RawModel model = loader.loadToVAO(vertices,textureCoords,indices);
-		ModelTexture texture = new ModelTexture(loader.loadTextures("naamloos"));
+		ModelTexture texture = new ModelTexture(loader.loadTextures("texture"));
 		TexturedModel texturedModel = new TexturedModel(model, texture);
 		int i = 0;
 		while(i!=5) {
